@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../assets/logo.png'
+import logo5 from '../assets/logo5.png'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import userIcon from '../assets/user.png'
 import { IoSearchOutline } from "react-icons/io5";
@@ -27,9 +27,10 @@ const Header = () => {
             <div className='container mx-auto px-3 flex items-center h-full'>
                 <Link to={"/"}>
                     <img
-                        src={logo}
+                        src={logo5}
                         alt='logo'
                         width={120} 
+                        
                     />
                 </Link>
 
